@@ -6,3 +6,11 @@ function reverseInt(n){
     }
     return parseInt(reversed)
 }
+
+// Alternate soln with Math.sign(n)
+// function reverseInt(n) {
+//     const reversed = n.toString().split("").reverse().join("")
+
+//         return parseInt(reversed) * Math.sign(n);
+   
+// }
