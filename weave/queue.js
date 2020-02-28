@@ -1,14 +1,14 @@
-class Queue = {
+class Queue {
     constructor() {
         this.data = [];
     }
 
-    add(record){
+    add(record) {
         this.data.unshift(record);
     }
 
-    remove(){
-        this.data.pop();
+    remove() {
+        return this.data.pop();
     }
 
     peek() {
