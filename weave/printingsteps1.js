@@ -12,6 +12,4 @@ function steps(n){
     
     console.log(stairs);
     }
-
-    
 }
